@@ -54,6 +54,8 @@ body{
    
 }
 
+/* sales section starts here*/
+
 .sales-content{
     text-align: center;
     margin-top: 70px;
@@ -98,4 +100,56 @@ body{
     margin: 0 auto;
     padding: 0 398px;
     margin-top: 35px;
+}
+
+/* party section starts here*/
+
+.party-img{
+    background-image: url(../resources/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+    background-color: gray;
+    background-blend-mode: multiply;
+    border-radius: 14px;
+
+}
+.party-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-info{
+    flex-basis: 50%;
+    margin-left: 50px;
+
+}
+.party-image{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 65px;
+    background: transparent;
+}
+.party-title{
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.party-information{
+    color: white;
+    margin-top: 0;
+    padding: 0;
+}
+.party-btn{
+    background: transparent;
+    color: white;
+    border: 0;
 }
