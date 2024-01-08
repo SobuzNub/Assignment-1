@@ -1,5 +1,7 @@
 /* common code added here */
 
+
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,5 +10,92 @@ body{
 
 
 .banner-img{
-    background-image: url(../resources/Rectangle\ 2.png);
+    background-image: url(../resources/Banner\ Image.png);
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 70px;
+    border-radius: 14px;
+    
+    
+}
+
+.banner-title{
+    position: absolute;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    /* margin-left: 320px;
+    align-items: center;
+    margin-top: 200px; */
+    padding: 232px 344px 177px 344px;
+    /* margin-bottom: 120px; */
+    
+    
+    
+}
+.title-ban{
+    font-size: 32px;
+    margin-top: 0;
+    
+    
+    
+}
+.info-ban{
+    font-size: 60px;
+    /* padding-top: 0; */
+    margin-top: 0;
+   
+}
+
+.sales-content{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.sales-p{
+    width: 383px;
+    height: 107px;
+    margin: 0 auto;
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    padding: 0 609px;
+}
+.sales-s-p{
+    width: 397px;
+    height: 29px;
+    padding: 0 600px;
+    margin: 0 auto;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.sales-t-p{
+    width: 410px;
+    height: 58px;
+    margin: 0 auto;
+    padding: 0 595px;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.new-year-img{
+    width: 802.9px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 398px;
+    margin-top: 35px;
 }
