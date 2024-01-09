@@ -462,3 +462,98 @@ span{
     margin-left: -50px;
     padding-bottom: 2px;
 }
+
+/* footer start here */
+
+.footer{
+    width: 100%;
+    height: 609px;
+    background: #070211;
+    margin-top: 60px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-p{
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-last-p{
+    width: 195px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-img{
+    width: 24px;
+    height: 24px;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+
+.left-info{
+    margin-left: 300px;
+    padding-top: 100px;
+}
+.right-info{
+    margin-right: 300px;
+    padding-top: 100px;
+}
+
+
+.right-content-p{
+    color: white;
+    margin-left: 12px;
+}
+hr{
+    width: 1285px;
+    margin-top: 20px;
+    /* height: 1px; */
+    background: rgba(255, 255, 255, 0.15);
+
+
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.icon-line{
+    margin-top: 45px;
+}
+.copy-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-one{
+    width: 295px;
+    height: 29px;
+    color: #FFF;    
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.copy-two{
+    width: 145px;
+    height: 29px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 300px;
+    margin-top: 40px;
+}
